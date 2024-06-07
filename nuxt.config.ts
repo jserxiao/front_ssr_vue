@@ -11,5 +11,8 @@ export default defineNuxtConfig({
     public: {
       port: 3001
     }
+  },
+  experimental: {
+    crossOriginPrefetch: true
   }
 })
